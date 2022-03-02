@@ -8,7 +8,7 @@ The following is the algorithm for finding the number of rectangles of any form 
 
 ## Algorithm
 
-There are O(n^2) total line segments. Each can be associated with all other lines it may form a rectangle with (that we've seen so far) in constant time.
+There are O(n^2) total line segments. Each can be associated with all other lines it will form a rectangle with (that we've seen so far) in constant time.
 
 To do so, calculate the segment's length along with the slope and intercept of the ray normal to its lower point. Lines will form rectangles with each other if and only if these three parameters are equal.
 
