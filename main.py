@@ -8,7 +8,7 @@ import itertools
 import random
 
 
-Vector = collections.namedtuple('Point', ['x', 'y'])
+Vector = collections.namedtuple('Vector', ['x', 'y'])
 
 
 def count_rectangles(points):
